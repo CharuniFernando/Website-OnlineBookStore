@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../OnlineBookStore/css/style_css.css"/>
+	<link rel="stylesheet" href="../OnlineBookStore/css/style_aboutus.css"/>
+    <link rel="stylesheet" href="../OnlineBookStore/css/style.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+	
+
+    <title>Online Book Store | SLIIT </title>
+    
+   
+   
+  </head>
+
+  <body>
+    <!------------------ Header ------------------>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="images\EbookStore-Logo.png" alt="EbookStore-Logo"
+            /></a>
+          </div>
+          
+    <!----------  Nav Bar ------------------>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="home.html">Home</a></li>
+			        <li><a href="latest_news.php">Latest News</a></li>
+              <li><a href="book_store.php">Book Store</a></li>
+			        <li><a href="e-books.html">E-Books</a></li>
+              <li><a href="about_us.html">About Us</a></li>
+              <li><a href="account_page.html">User Account</a></li>
+            </ul>
+          </nav>
+          <a href="shoppingcart.html">
+            <img
+              src="images/cart.png"
+              alt="Shoping Cart"
+              width="28px"
+              height="28px"
+              style="margin-left: 10px; margin-top: 5px"
+            />
+          </a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              The Books Lover<br />
+              Read all About it!
+            </h1>
+            <h5>"Bookshops are places of magical discoveries and the rediscovery of past pleasures"</h5><br>
+			<p>“Bookstores, like libraries, are the physical manifestation of the wide world’s longest, most thrilling conversation.”</p>
+          </div>
+		  
+          <div class="col-2">
+            <img src="images/header-pic.png" alt="Header Pic" />
+          </div>
+
+ 		  
+        </div>
+      </div>
+    </div>
+	
+	<br><br><br>
+
+
+    <!----------  Content   ------------------>
+	
+         <section>
+			<div class="col-4">
+				<img src="images/aboutus.jpg" alt="aboutus"/>
+				<br><br>
+				<h1>|ONLINE BOOK STORE| SLIIT <h1>
+
+			</div>
+		
+            <div class = "content">
+                <h2>About Us</h2>
+				<span></span>
+                <p>Our website features books from every literary genre, allowing us to appeal to any particular taste a customer may have. Can't find what you're looking for? We can order the book for you.</p>
+				<br>
+				<h3>Address :</h3>
+                <p>123, Colombo, Srilanka</p>
+				<br>
+				<h3>Email :</h3>
+                <p>onlinebookstore@gmail.com</p>
+				
+				
+            </div>
+        </section><br><br>
+		
+ 
+     <!----------  Contact Us   ------------------>
+ 
+ 
+ 
+    <!-- ---------------------footer------------------- -->
+    <div class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col-1">
+            <h3>Download Our App</h3>
+            <p>Download App for Android and ios mobile phone.</p>
+            <div class="app-logo">
+              <img src="images/Playstore.png" />
+              <img src="images/Applestore.png" />
+            </div>
+          </div>
+          <div class="footer-col-2">
+            <img src="images/EbookStore-Logo-footer.png" />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Reiciendis, Lorem ipsum dolor sit amet.
+            </p>
+          </div>
+          <div class="footer-col-3">
+            <h3>Useful Links</h3>
+            <ul>
+              <li>Terms of Services</li>
+              <li>Branch network</li>
+              <li>Shipping and Returns</li>
+              <li>Payment Policy</li>
+            </ul>
+          </div>
+          <div class="footer-col-4">
+            <h3>Follow us</h3>
+            <ul>
+              <li>Facebook</li>
+              <li>Youtube</li>
+              <li>Instagram</li>
+              <li>Twitterr</li>
+            </ul>
+          </div>
+        </div>
+        <hr />
+        <p class="copyright">Copyright 2023 @ Online Book Store</p>
+      </div>
+    </div>
+    <!-- ---------Javascript for toggle menu------------- -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+      MenuItems.style.maxHeight = "0px";
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>

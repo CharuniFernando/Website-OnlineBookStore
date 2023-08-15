@@ -1,0 +1,181 @@
+/* admin-addBook.css */
+
+body {
+  background-color: #222;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.add-product {
+  max-width: 500px;
+  margin: 20px auto;
+  background-color: #333;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h3 {
+  margin-top: 0;
+  text-align: center;
+}
+
+.box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+}
+
+.box:focus {
+  outline: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #444;
+  color: #fff;
+  resize: vertical;
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+}
+
+.show-books {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  width: 200px;
+  background-color: #222;
+  color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.box img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.price {
+  color: #007bff;
+  margin-bottom: 10px;
+}
+
+.option-btn,
+.delete-btn {
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.option-btn:hover,
+.delete-btn:hover {
+  background-color: #0056b3;
+}
+
+.empty {
+  text-align: center;
+  margin-top: 20px;
+  color: #fff;
+}
+
+.edit-book-form {
+  margin-top: 20px;
+}
+
+.edit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.book-image {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.update-button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.cancel-link {
+  color: #777;
+  text-decoration: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.cancel-link:hover {
+  text-decoration: underline;
+}
